@@ -1,0 +1,9 @@
+PROCEDURE Custom_Message(p_message IN VARCHAR2) IS
+BEGIN
+  MESSAGE(p_message);
+END;
+
+FUNCTION Custom_Sum(a IN NUMBER, b IN NUMBER) RETURN NUMBER IS
+BEGIN
+  RETURN a + b;
+END;
