@@ -5,11 +5,13 @@ CREATE TABLE students (
     gender CHAR(1)
 );
 
-INSERT INTO students (id, firstname, lastname, gender) VALUES
-(1, 'Amar', 'Sharma', 'M'),
-(2, 'Rahul', 'Mehta', 'M'),
-(3, 'Vikram', 'Singh', 'M'),
-(4, 'Karan', 'Verma', 'M'),
-(5, 'Priya', 'Rao', 'F'),
-(6, 'Shankar', 'Rao', 'F'),
-(7, 'Neha', 'Reddy', 'F');
+
+
+INSERT INTO students (id, firstname, lastname, gender) VALUES (1, 'Anand', 'Sharma', 'M');
+INSERT INTO students (id, firstname, lastname, gender) VALUES (2, 'Rahul', 'Mehta', 'M');
+INSERT INTO students (id, firstname, lastname, gender) VALUES (3, 'Vikram', 'Singh', 'M');
+INSERT INTO students (id, firstname, lastname, gender) VALUES (4, 'Karan', 'Verma', 'M');
+INSERT INTO students (id, firstname, lastname, gender) VALUES (5, 'Priya', 'Rao', 'F');
+INSERT INTO students (id, firstname, lastname, gender) VALUES (6, 'venkat', 'reddy', 'F');
+INSERT INTO students (id, firstname, lastname, gender) VALUES (7, 'Neha', 'sharma', 'F');
+
