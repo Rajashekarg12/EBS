@@ -1,1 +1,1 @@
-DROP TABLE country_table1;
+DROP TABLE students;
