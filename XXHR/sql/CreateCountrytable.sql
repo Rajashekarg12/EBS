@@ -1,4 +1,4 @@
-CREATE TABLE students (
+CREATE TABLE students33 (
     id INT PRIMARY KEY,
     firstname VARCHAR(50),
     lastname VARCHAR(50),
@@ -14,4 +14,6 @@ INSERT INTO students (id, firstname, lastname, gender) VALUES (4, 'Karan', 'Verm
 INSERT INTO students (id, firstname, lastname, gender) VALUES (5, 'Priya', 'Rao', 'F');
 INSERT INTO students (id, firstname, lastname, gender) VALUES (6, 'venkat', 'reddy', 'F');
 INSERT INTO students (id, firstname, lastname, gender) VALUES (7, 'Neha', 'sharma', 'F');
+
+select * from students33;
 
