@@ -1,1 +1,1 @@
-delete from country_table1;
+select * from dual;
