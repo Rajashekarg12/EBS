@@ -1,5 +1,1 @@
 select * from dual;
-#
-
-
-hkklll
